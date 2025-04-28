@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2">
           <img 
-            src="/public/lovable-uploads/SmartMealPlan Logo.png"
+            src="/public/lovable-uploads/SmartMealPlan_Logo.png"
             alt="SmartMealPlan Logo" 
             className="h-10 w-10" 
           />
