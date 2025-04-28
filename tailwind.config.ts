@@ -12,9 +12,9 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: '2rem',
+      padding: "2rem",
       screens: {
-        '2xl': '1400px'
+        "2xl": "1400px"
       }
     },
     extend: {
@@ -22,8 +22,8 @@ export default {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
-        background: 'hsl(var(--background))',
-        foreground: 'hsl(var(--foreground))',
+        background: "#1A1A1A",
+        foreground: "#FFFFFF",
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))'
@@ -62,7 +62,6 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))'
         },
-        // Custom colors for SmartMealPlan
         "brand-orange": "#FA6832",
         "brand-charcoal": "#1A1A1A",
         "brand-cream": "#FFF4E6",
