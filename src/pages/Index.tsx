@@ -4,7 +4,7 @@ import Hero from '@/components/Hero';
 import IngredientInput from '@/components/IngredientInput';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
-import { Utensils, Star, Filter, Chef } from 'lucide-react';
+import { Utensils, Star, Filter, ChefHat } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -87,7 +87,7 @@ const Index = () => {
               <Card className="bg-white shadow-md border-none">
                 <CardContent className="pt-8 flex flex-col items-center text-center">
                   <div className="bg-brand-orange/10 p-4 rounded-full mb-4">
-                    <Chef className="h-8 w-8 text-brand-orange" />
+                    <ChefHat className="h-8 w-8 text-brand-orange" />
                   </div>
                   <h3 className="text-xl font-semibold mb-2">Start Cooking</h3>
                   <p className="text-gray-600">Follow our step-by-step instructions to prepare your meal.</p>
