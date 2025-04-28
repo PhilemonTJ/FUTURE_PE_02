@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">Turn your Pantry into Possibilities with AI-powered recipe suggestions.</p>
             <div className="flex items-center space-x-2">
               <img 
-                src="/public/lovable-uploads/SmartMealPlan Logo.png" 
+                src="/public/lovable-uploads/SmartMealPlan_Logo.png" 
                 alt="SmartMealPlan Logo" 
                 className="h-8 w-8" 
               />
