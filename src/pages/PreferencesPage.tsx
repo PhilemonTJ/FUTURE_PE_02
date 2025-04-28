@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -63,8 +62,9 @@ const PreferencesPage = () => {
       
       <main className="flex-grow">
         <Hero 
-          title="Your Preferences" 
-          subtitle="Customize your dietary needs and cooking preferences"
+          title="Customize Your Experience" 
+          subtitle="Set your dietary preferences and cooking habits"
+          backgroundImage="https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&q=80&w=2000"
           showButton={false}
         />
         

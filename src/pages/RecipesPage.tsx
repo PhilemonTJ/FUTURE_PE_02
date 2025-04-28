@@ -163,8 +163,8 @@ const RecipesPage = () => {
         <Hero 
           title="Discover Recipes" 
           subtitle="Find dishes based on ingredients you have at hand"
+          backgroundImage="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=2070"
           showButton={false}
-          backgroundImage="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&q=80&w=1000"
         />
         
         <section className="py-12 bg-white">

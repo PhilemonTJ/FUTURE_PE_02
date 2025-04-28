@@ -33,8 +33,9 @@ const Index = () => {
       
       <main className="flex-grow">
         <Hero 
-          title="Turn Your Pantry into Possibilities" 
+          title="Turn your Pantry into Possibilities" 
           subtitle="Enter the ingredients you have, and let our AI find the perfect recipe for you."
+          backgroundImage="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&q=80&w=2070"
         />
 
         <section className="py-16 bg-white">

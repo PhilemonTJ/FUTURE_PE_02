@@ -112,6 +112,7 @@ const BlogPage = () => {
         <Hero 
           title="From Our Kitchen to Yours" 
           subtitle="Insights, tips, and stories about cooking and nutrition"
+          backgroundImage="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&q=80&w=2070"
           showButton={false}
         />
         
