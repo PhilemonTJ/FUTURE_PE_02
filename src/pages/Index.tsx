@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Hero from '@/components/Hero';
 import IngredientInput from '@/components/IngredientInput';
@@ -35,7 +34,7 @@ const Index = () => {
         <Hero 
           title="Turn your Pantry into Possibilities" 
           subtitle="Enter the ingredients you have, and let our AI find the perfect recipe for you."
-          backgroundImage="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&q=80&w=2070"
+          backgroundImage="/lovable-uploads/da25ce10-fed6-416a-b903-6e13555f2e25.png"
         />
 
         <section className="py-16 bg-white">

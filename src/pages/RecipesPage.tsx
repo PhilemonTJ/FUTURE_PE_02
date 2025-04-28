@@ -163,7 +163,7 @@ const RecipesPage = () => {
         <Hero 
           title="Discover Recipes" 
           subtitle="Find dishes based on ingredients you have at hand"
-          backgroundImage="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&q=80&w=2070"
+          backgroundImage="/lovable-uploads/946da429-077b-41c4-a770-aa37cd23c52b.png"
           showButton={false}
         />
         

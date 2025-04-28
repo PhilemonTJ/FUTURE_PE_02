@@ -64,7 +64,7 @@ const PreferencesPage = () => {
         <Hero 
           title="Customize Your Experience" 
           subtitle="Set your dietary preferences and cooking habits"
-          backgroundImage="https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&q=80&w=2000"
+          backgroundImage="/lovable-uploads/aa8467c8-950d-4f9f-a54f-b2533550773a.png"
           showButton={false}
         />
         
