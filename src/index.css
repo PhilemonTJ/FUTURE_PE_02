@@ -7,11 +7,11 @@
 
 :root {
   --background: #1A1A1A;
-  --foreground: 222.2 84% 4.9%;
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
+  --foreground: #FFFFFF;
+  --card: #221F26;
+  --card-foreground: #FFFFFF;
+  --popover: #221F26;
+  --popover-foreground: #FFFFFF;
   --primary: 221.2 83.2% 53.3%;
   --primary-foreground: 210 40% 98%;
   --secondary: 210 40% 96.1%;
