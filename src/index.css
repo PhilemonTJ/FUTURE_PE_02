@@ -5,35 +5,108 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #1A1A1A;
-  --foreground: 222.2 84% 4.9%;
-  --card: 0 0% 100%;
-  --card-foreground: 222.2 84% 4.9%;
-  --popover: 0 0% 100%;
-  --popover-foreground: 222.2 84% 4.9%;
-  --primary: 221.2 83.2% 53.3%;
-  --primary-foreground: 210 40% 98%;
-  --secondary: 210 40% 96.1%;
-  --secondary-foreground: 222.2 47.4% 11.2%;
-  --muted: 210 40% 96.1%;
-  --muted-foreground: 215.4 16.3% 46.9%;
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
-  --destructive: 0 84.2% 60.2%;
-  --destructive-foreground: 210 40% 98%;
-  --border: 214.3 31.8% 91.4%;
-  --input: 214.3 31.8% 91.4%;
-  --ring: 221.2 83.2% 53.3%;
-  --radius: 0.5rem;
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 10%;
+
+    --primary: 16 95% 59%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 33 100% 95%;
+    --secondary-foreground: 20 10% 10%;
+
+    --muted: 33 30% 95%;
+    --muted-foreground: 20 10% 40%;
+
+    --accent: 122 48% 49%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 10% 90%;
+    --input: 20 10% 90%;
+    --ring: 16 95% 59%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 20 10% 30%;
+    --sidebar-primary: 16 95% 59%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 33 100% 95%;
+    --sidebar-accent-foreground: 20 10% 10%;
+    --sidebar-border: 20 10% 90%;
+    --sidebar-ring: 16 95% 59%;
+  }
+
+  .dark {
+    --background: 20 10% 10%;
+    --foreground: 0 0% 95%;
+
+    --card: 20 10% 10%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 20 10% 10%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 16 95% 59%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 33 30% 15%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 33 30% 15%;
+    --muted-foreground: 20 10% 60%;
+
+    --accent: 122 48% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 95%;
+
+    --border: 33 30% 20%;
+    --input: 33 30% 20%;
+    --ring: 16 95% 59%;
+
+    --sidebar-background: 20 10% 10%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 16 95% 59%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 33 30% 15%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 33 30% 20%;
+    --sidebar-ring: 16 95% 59%;
+  }
 }
 
-body {
-  background-color: #1A1A1A;
-  color: #FFFFFF;
-  font-family: 'Quicksand', sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
-.font-quicksand {
-  font-family: 'Quicksand', sans-serif;
+@layer components {
+  .recipe-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all hover:shadow-lg;
+  }
+
+  .ingredient-tag {
+    @apply bg-brand-cream text-brand-charcoal px-3 py-1 rounded-full text-sm font-medium inline-block mr-2 mb-2;
+  }
+
+  .dietary-badge {
+    @apply bg-brand-green text-white px-2 py-0.5 rounded text-xs font-medium uppercase;
+  }
 }
