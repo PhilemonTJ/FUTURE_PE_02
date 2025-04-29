@@ -23,12 +23,12 @@ const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <div 
-      className="relative py-24 md:py-32 overflow-hidden bg-[#1A1A1A]"
+      className="relative py-24 md:py-32 overflow-hidden bg-brand-orange"
     >
       {/* Single background image with proper styling */}
       {backgroundImage && (
         <div 
-          className="absolute inset-0 w-full h-full bg-cover bg-center"
+          className="absolute inset-0 w-full h-full bg-cover bg-center opacity-70"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -44,7 +44,7 @@ const Hero: React.FC<HeroProps> = ({
             <Link to={buttonLink}>
               <Button 
                 size="lg" 
-                className="bg-brand-orange text-white hover:bg-brand-orange/90 transition-colors font-quicksand"
+                className="bg-white text-brand-orange hover:bg-white/90 transition-colors font-quicksand"
               >
                 {buttonText}
                 <ArrowRight className="ml-2 h-5 w-5" />

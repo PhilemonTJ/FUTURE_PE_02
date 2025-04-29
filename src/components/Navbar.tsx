@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/recipes" className="text-white hover:text-brand-orange transition-colors font-quicksand">Recipes</Link>
           <Link to="/preferences" className="text-white hover:text-brand-orange transition-colors font-quicksand">Preferences</Link>
           <Link to="/blog" className="text-white hover:text-brand-orange transition-colors font-quicksand">Blog</Link>
-          <Button variant="default" className="bg-brand-green hover:bg-brand-green/90 text-white font-quicksand">Get Started</Button>
+          <Button variant="default" className="bg-brand-green hover:bg-brand-green/90 font-quicksand">Get Started</Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -70,7 +70,7 @@ const Navbar = () => {
             </Link>
             <Button 
               variant="default" 
-              className="bg-brand-green hover:bg-brand-green/90 text-white w-full font-quicksand"
+              className="bg-brand-green hover:bg-brand-green/90 w-full font-quicksand"
               onClick={() => setIsOpen(false)}
             >
               Get Started
